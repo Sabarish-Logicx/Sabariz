@@ -2,7 +2,8 @@
 #Input From User
 n=int(input("Enter a Number : "))
 
-n=12
+#n=12
+
 a,b=0,1
 count=0
 #if n<=0:
