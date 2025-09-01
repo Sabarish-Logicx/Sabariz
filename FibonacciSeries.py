@@ -13,9 +13,20 @@ print("Fibonacci Series up to ",n,"Terms")
 # print (a)
 #else:
 #  print("Fibonacci Series")
+
+
 while count<n:
+       print(a,end=" ")
+       a,b=b,a+b
+  #      c=a+b
+   #     a=b
+    #    b=c
+       count+=1
+
+#Using For Loop
+for i in range(n):
         print(a,end=" ")
+     #   a,b=b,a+b
         c=a+b
         a=b
         b=c
-        count+=1
