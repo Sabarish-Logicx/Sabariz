@@ -25,6 +25,11 @@ print((2**2)**3)   //4^3=48
 
 print(2**2**1)   #Base(2)^2^1=4
 
+#String Manipulation
+a="1"
+b="2"
+print(int(a+b)+int(b+a))  #
+
 
 
 
