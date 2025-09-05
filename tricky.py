@@ -38,6 +38,8 @@ a="12"
 b=1
 print(a+str(b))      #121
 
+print("python"+str(3*2))
+
 
 
 
