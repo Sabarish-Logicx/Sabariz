@@ -30,9 +30,15 @@ a="1"
 b="2"
 print(int(a+b)+int(b+a))  #12+21=33
 
-a=12
-b="1"
-print(int(a)+b)      #
+a="12"
+b=1
+print(int(a)+b)      #13
+
+a="12"
+b=1
+print(a+str(b))      #121
+
+
 
 
 
