@@ -40,7 +40,8 @@ print(a+str(b))      #121
 
 print("python"+str(3*2))   #python6
 
-
+s="banana"
+print(s.replace("a","o",2))   #bonona (first two occurance of a -> o)
 
 
 
