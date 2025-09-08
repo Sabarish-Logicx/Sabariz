@@ -43,6 +43,9 @@ print("python"+str(3*2))   #python6
 s="banana"
 print(s.replace("a","o",2))   #bonona (first two occurance of a -> o)
 
+s=1234
+print(str(s)[::-1])       #4321 reverse
+
 
 
 
