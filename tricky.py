@@ -46,9 +46,11 @@ print(s.replace("a","o",2))   #bonona (first two occurance of a -> o)
 s=1234
 print(str(s)[::-1])       #4321 reverse
 
-
-
-
-
-
+s=123456
+rev=0
+while a>0:
+    digit=a%10
+    rev=rev*10+digit
+    a=a//10
+    print(rev)
 
