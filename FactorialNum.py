@@ -1,4 +1,7 @@
 #Factorial of Single Number
+
+num=int(input("Enter a Number: "))
+
 def factorial(n)
     result = 1
     for i in range(1,n+1):
