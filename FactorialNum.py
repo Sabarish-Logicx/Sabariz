@@ -8,3 +8,11 @@ def factorial(n)
         result*=i
         return result
     print("5!=",factorial(5))    #120
+
+
+#
+num=5
+factorial=1
+for i in range(1,num+1):
+    factorial*=i
+    print(factorial)
