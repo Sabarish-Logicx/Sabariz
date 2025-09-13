@@ -9,14 +9,12 @@ def factorial(n):
 
 #Factorial for Given input numbers
 
-num=int(input("Enter a Number: "))
-
-#num=5
+num=int(input("Enter a Number: ")) #5
 
 factorial=1
 for i in range(1,num+1):
     factorial*=i
-    print(factorial)
+    print(factorial)         #1 to 120
 
 
 
