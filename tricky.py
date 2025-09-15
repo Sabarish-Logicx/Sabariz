@@ -58,7 +58,7 @@ while a>0:
 a=[1,2,3]
 b=a
 b[0]=99
-print(a) 
+print(a)          #[99,2,3]
 
 
 
