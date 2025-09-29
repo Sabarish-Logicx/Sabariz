@@ -60,7 +60,9 @@ b=a
 b[0]=99
 print(a)          #[99,2,3]
 
-#String
-
+#String Reverse
+def reverse_string(a)
+return a[::-1]
+print (reverse_string("SABARISH"))
 
 
