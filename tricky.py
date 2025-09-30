@@ -67,7 +67,7 @@ print (reverse_string("SABARISH"))     #HSIRABAS
 
 #without Slice
 a="SABARISH"
-reversed_text=""
+reversed_text=""       #result==reversed_text
 for ch in a:
     reversed_text=ch+reversed_text
     print(reversed_text)               #HSIRABAS
