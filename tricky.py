@@ -70,6 +70,6 @@ a="SABARISH"
 reversed_text=""
 for ch in a:
     reversed_text=ch+reversed_text
-    print(reversed_text)
+    print(reversed_text)               #HSIRABAS
 
 
