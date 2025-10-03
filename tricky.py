@@ -72,6 +72,10 @@ for ch in a:
     reversed_text=ch+reversed_text
     print(reversed_text)               #HSIRABAS
 
-#
+# Looping 
+for i range (2,10,2)
+print(i,end=" ")               # 2 4 6 8 
+
+
 
 
