@@ -76,6 +76,9 @@ for ch in a:
 for i range (2,10,2)
 print(i,end=" ")               # 2 4 6 8 
 
+for i range (2,10,3)
+print(i)               # 369
+
 
 
 
