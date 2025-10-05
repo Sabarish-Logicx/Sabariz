@@ -80,13 +80,13 @@ for i range (2,10,3)
 print(i)               # 369
 
 #Types
-print(type(([1,2,3])))      #list
-print(type(({1,2,3})))      #set
-print(type((1,2,3)))        #tuple
+print(type(([1,2,3])))      #<class 'list'>
+print(type(({1,2,3})))      #<class 'set'>
+print(type((1,2,3)))        #<class 'tuple'>
 
 #Dictionary (Dict)
 student={"name"="Sabarish","age"=20}
-print(type((student)))      #student
+print(type((student)))      #dict
 
 
 
