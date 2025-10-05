@@ -86,7 +86,7 @@ print(type((1,2,3)))        #<class 'tuple'>
 
 #Dictionary (Dict)
 student={"name"="Sabarish","age"=20}
-print(type((student)))      #dict
+print(type((student)))      #<class 'dict'>
 
 
 
