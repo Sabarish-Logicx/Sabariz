@@ -77,7 +77,7 @@ for i range (2,10,2)
 print(i,end=" ")               # 2 4 6 8 
 
 for i range (2,10,3)
-print(i)               # 369
+print(i)                       # 369   
 
 #Types
 print(type(([1,2,3])))      #<class 'list'>
@@ -88,7 +88,8 @@ print(type((1,2,3)))        #<class 'tuple'>
 student={"name"="Sabarish","age"=20}
 print(type((student)))      #<class 'dict'>
 
-
-
-
+#Array Sorting
+Num=[4,1,3,5,6,2]
+Num.sort()
+print(Num)                 #[1,2,3,4,5,6]
 
