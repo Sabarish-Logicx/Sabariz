@@ -91,5 +91,7 @@ print(type((student)))      #<class 'dict'>
 #Array Sorting
 Num=[4,1,3,5,6,2]
 Num.sort()
-print(Num)                 #[1,2,3,4,5,6]
+#Num.sort(Reverse=flase)     #Descending [6,5,4,3,2,1]
+#Num.sort(Reverse=ture)      #Ascening [1,2,3,4,5,6]
+print(Num)                   #[1,2,3,4,5,6]
 
