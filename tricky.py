@@ -102,6 +102,11 @@ print(s(0:6:2))              #SBRS
 string="Hello World"
 print(string(0:6:3))         #Hlwl
 
-x=[1,2,3]
+x=[1,2,3,4,5,6]
 print(x[-1])                 #3    -2 -->2,-3 -->1
 print(x[1])                  #2     0 -->1,3 -->2
+
+print(x[2:5])                #3,4,5
+print(x[:5])                 #1,2,3,4
+print(x[:-5])                #1
+print(x[-5:])                #2,3,4,5,6
