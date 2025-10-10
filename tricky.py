@@ -96,6 +96,8 @@ Num.sort()
 print(Num)                   #[1,2,3,4,5,6]
 
 #Slicing
-s="SABARISH"
-s="Hello World"              #Hlo
+s="SABARISH"        
 print(s(0:6:2))              #SBRS
+
+string="Hello World"
+print(string(0:6:3))         #Hlwl
