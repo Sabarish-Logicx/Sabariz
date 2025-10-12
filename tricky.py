@@ -111,6 +111,7 @@ print(x[:5])                 #1,2,3,4
 print(x[:-5])                #1
 print(x[-5:])                #2,3,4,5,6
 
+#[:] for Copy a list
 a=[1,2,3]
 b=a[:]
 print(b)                     #[1,2,3]
