@@ -116,4 +116,6 @@ a=[1,2,3]
 b=a[:]
 print(b)                     #[1,2,3]
 
-#
+s="SABARISH LOGICZ"
+print([:3])                 #SAB
+print([::3])                #SASLI
