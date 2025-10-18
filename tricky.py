@@ -117,3 +117,5 @@ b=a[:]
 print(b)                     #[1,2,3]
 
 #Set {}
+s={1,2,3,4}
+for i range
