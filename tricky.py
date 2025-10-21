@@ -120,4 +120,6 @@ s="SABARISH LOGICZ"
 print([:3])                 #SAB
 print([::3])                #SASLI
 
-#
+#List
+x=[1,2,[3,4]]
+print(x[2]+x[2])           #[3,4,1]
