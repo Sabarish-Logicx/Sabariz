@@ -125,3 +125,6 @@ print([::3])                #SASLI
 x=[1,2,[3,4]]
 print(x[2]+x[0])           #[3,4,1]
 print(x[2],x[0])           #[3,4][1]
+
+#python 
+print()
