@@ -126,5 +126,8 @@ x=[1,2,[3,4]]
 print(x[2]+x[0])           #[3,4,1]
 print(x[2],x[0])           #[3,4][1]
 
-#python 
-print()
+#while loop
+a=6
+while a<12:
+    print(a,end=" ")
+    m+=1                   #
