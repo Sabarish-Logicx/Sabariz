@@ -142,3 +142,13 @@ a=6
 while a>12:
     print(a,end=" ")
     m-=1                  #11 10 9 8 7 6
+
+#Logical Operators
+a = True
+b = False
+print(____)
+
+a and b   False
+a or b    True
+not a     False
+not b     True
