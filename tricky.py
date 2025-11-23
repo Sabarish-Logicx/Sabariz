@@ -88,6 +88,10 @@ print(type((1,2,3)))        #<class 'tuple'>
 student={"name"="Sabarish","age"=20}
 print(type((student)))      #<class 'dict'>
 
+[] List
+{} Set
+() Tuple
+
 #Array Sorting
 Num=[4,1,3,5,6,2]
 Num.sort()
