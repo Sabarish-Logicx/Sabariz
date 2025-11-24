@@ -152,3 +152,8 @@ a and b   False
 a or b    True
 not a     False
 not b     True
+
+a=10
+b=5
+print(a<b)  
+print(a>b)
