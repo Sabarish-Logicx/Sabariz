@@ -157,3 +157,10 @@ a=10
 b=5 
 print(a<b)       #False
 print(a>b)       #true
+
+#logic 
+result=0
+for i in range(5):
+    result+=i
+    i+=5
+    print(result)
