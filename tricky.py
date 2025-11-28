@@ -164,3 +164,9 @@ for i in range(5):
     result+=i
     i+=5
     print(result)     #10
+
+#Identify Operator
+ a=[1,2,3]
+ a=b
+ print(a is b)        #True
+
