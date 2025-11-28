@@ -170,7 +170,7 @@ for i in range(5):
  a=b
  print(a is b)        #True
 
-#a and b are in differnt memory .So,false 
+#a and b are in differnt memory.So,false 
 a=[1,2,3]
 b=[1,2,3]
 print(a is not b)     #False
