@@ -179,4 +179,8 @@ print(a is not b)     #False
  a=b=[1,2,3]
  print(a is b)        #True
 
+a=100
+b=100
+print(a is b)
+
  
