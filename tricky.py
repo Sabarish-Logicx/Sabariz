@@ -171,6 +171,7 @@ for i in range(5):
  print(a is b)        #True
 
 #a and b are in differnt memory.So,false 
+#list
 a=[1,2,3]
 b=[1,2,3]
 print(a==b)           #True (Comparision Operator)
@@ -179,8 +180,9 @@ print(a is not b)     #False
  a=b=[1,2,3]
  print(a is b)        #True
 
+#Integers
 a=100
 b=100
-print(a is b)
+print(a is b)         #True
 
  
