@@ -12,3 +12,5 @@ print(a)          #[4,3,2,1]
 print(a[::-1])     #[4,3,2,1]
 print(b[::-1])     #(4,3,2,1) 
 print(s[::-1])     #HSIRABAS
+
+#Reverse Using Reversed()
