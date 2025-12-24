@@ -16,3 +16,6 @@ print(s[::-1])     #HSIRABAS
 #Reverse Using Reversed()
 a=[1,2,3]
 print(list(reversed(a)))     #[3,2,1]
+
+s="SABARISH"
+print("".join(reversed(s)))  #HSIRABAS
