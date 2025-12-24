@@ -14,3 +14,5 @@ print(b[::-1])     #(4,3,2,1)
 print(s[::-1])     #HSIRABAS
 
 #Reverse Using Reversed()
+a=[1,2,3]
+print(list(reversed(a)))     #[3,2,1]
