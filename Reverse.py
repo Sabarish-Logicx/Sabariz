@@ -19,6 +19,7 @@ print(list(reversed(a)))     #[3,2,1]
 
 s="SABARISH"
 print("".join(reversed(s)))  #HSIRABAS
+                             #("".join) for combine a ch in single String 
 
 #Using loop in Reversed()
 s="HELLO"
