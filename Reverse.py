@@ -20,4 +20,8 @@ print(list(reversed(a)))     #[3,2,1]
 s="SABARISH"
 print("".join(reversed(s)))  #HSIRABAS
 
-#
+#Using loop in Reversed()
+s="HELLO"
+for ch in reversed(s):
+    print(ch)                # O \n L \n L \n E \n H
+    
