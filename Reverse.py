@@ -24,4 +24,4 @@ print("".join(reversed(s)))  #HSIRABAS
 s="HELLO"
 for ch in reversed(s):
     print(ch)                # O \n L \n L \n E \n H
-    
+    print(ch,end="")         #OLLEH
