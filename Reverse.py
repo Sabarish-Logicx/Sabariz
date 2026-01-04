@@ -22,8 +22,8 @@ print("".join(reversed(s)))  #HSIRABAS
                              #("".join) for combine a ch in single String 
 
 #Using loop in Reversed()
-s="HELLO"
-for ch in reversed(s):
+s="HELLO"                # t=(), a=[]
+for ch in reversed(s):   # i in (t), i in (s)
     print(ch)                # O \n L \n L \n E \n H
     print(ch,end="")         #OLLEH
 
