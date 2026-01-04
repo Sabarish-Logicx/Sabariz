@@ -26,3 +26,11 @@ s="HELLO"
 for ch in reversed(s):
     print(ch)                # O \n L \n L \n E \n H
     print(ch,end="")         #OLLEH
+
+#FReverse using Loop
+s="HELLO"
+rev=""
+for ch in s:
+    rev=ch+rev
+    print(rev)
+
