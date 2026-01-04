@@ -27,10 +27,26 @@ for ch in reversed(s):
     print(ch)                # O \n L \n L \n E \n H
     print(ch,end="")         #OLLEH
 
-#FReverse using Loop
+#Reverse using Loop
+#String
 s="HELLO"
-rev=""
+rev=""                  
 for ch in s:
-    rev=ch+rev
-    print(rev)
+    rev=ch+rev          
+    print(rev)              #OLLEH
+
+#List
+s=[1,2,3,4,5]
+rev=[]                  
+for i in s:
+    rev=[i]+rev          
+    print(rev)              #[5,4,3,2,1]
+
+#Tuple
+s=(1,2,3,4,5)
+rev=()                  
+for i in s:
+    rev=(i,)+rev          
+    print(rev)              #(5,4,3,2,1)
+
 
