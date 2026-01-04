@@ -36,16 +36,16 @@ for ch in s:
     print(rev)              #OLLEH
 
 #List
-s=[1,2,3,4,5]
+a=[1,2,3,4,5]
 rev=[]                  
-for i in s:
+for i in a:
     rev=[i]+rev          
     print(rev)              #[5,4,3,2,1]
 
 #Tuple
-s=(1,2,3,4,5)
+t=(1,2,3,4,5)
 rev=()                  
-for i in s:
+for i in t:
     rev=(i,)+rev          
     print(rev)              #(5,4,3,2,1)
 
