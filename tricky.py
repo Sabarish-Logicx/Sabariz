@@ -158,6 +158,10 @@ b=5
 print(a<b)       #False
 print(a>b)       #true
 
+print(true==1)
+print(false==0)
+print(true+true)
+
 #logic 
 result=0
 for i in range(5):
