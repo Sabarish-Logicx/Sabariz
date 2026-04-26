@@ -158,10 +158,10 @@ b=5
 print(a<b)       #False
 print(a>b)       #true
 
-print(true==1)
-print(false==0)
-print(true+true)
-
+print(true==1)           //true
+print(false==0)         //true
+print(true+true)       //2
+ 
 #logic 
 result=0
 for i in range(5):
